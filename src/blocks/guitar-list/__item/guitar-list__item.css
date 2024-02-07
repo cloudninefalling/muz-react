@@ -1,0 +1,17 @@
+.guitar-list__item {
+  position: relative;
+  display: grid;
+  min-width: 260px;
+  max-width: 260px;
+  grid-template-areas:
+    "image image"
+    ". ."
+    "name name"
+    ". ."
+    "price like";
+  grid-template-columns: auto 20px;
+  grid-template-rows: max-content 12px max-content 8px max-content;
+  color: #f9f7f1;
+
+  flex: 1 1 auto;
+}

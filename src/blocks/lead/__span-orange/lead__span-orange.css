@@ -1,0 +1,19 @@
+.lead__span-orange {
+  color: #e35325;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-size: 66px;
+  line-height: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .lead__span-orange {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .lead__span-orange {
+    font-size: 46px;
+  }
+}

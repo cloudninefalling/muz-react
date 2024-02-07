@@ -1,0 +1,23 @@
+.new-arrivals__subtitle {
+  margin: 0 0 0 60px;
+  max-width: 422px;
+  grid-area: subtitle;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  color: rgba(13, 13, 12, 0.9);
+}
+
+@media screen and (max-width: 1000px) {
+  .new-arrivals__subtitle {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .new-arrivals__subtitle {
+    max-width: 100%;
+    margin: 0 30px 12px;
+  }
+}

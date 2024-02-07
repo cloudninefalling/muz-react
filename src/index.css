@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* page */
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/full-vh-screen/full-vh-screen.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* header */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/nav/nav.css);
+@import url(./blocks/nav/__list/nav__list.css);
+@import url(./blocks/nav/__list-item/nav__list-item.css);
+@import url(./blocks/nav/__list-item-icon/nav__list-item-icon.css);
+@import url(./blocks/nav/__list-mobile/nav__list-mobile.css);
+@import url(./blocks/nav/__list-mobile-item/nav__list-mobile-item.css);
+
+/* content */
+@import url(./blocks/content/content.css);
+@import url(./blocks/section-title/section-title.css);
+
+/* lead */
+@import url(./blocks/lead/lead.css);
+@import url(./blocks/lead/__button/lead__button.css);
+@import url(./blocks/lead/__explore/lead__explore.css);
+@import url(./blocks/lead/__arrow/lead__arrow.css);
+@import url(./blocks/lead/__title/lead__title.css);
+@import url(./blocks/lead/__span-orange/lead__span-orange.css);
+@import url(./blocks/lead/__subtitle/lead__subtitle.css);
+
+/* bestsellers */
+@import url(./blocks/bestsellers/bestsellers.css);
+@import url(./blocks/bestsellers/__banner/bestsellers__banner.css);
+@import url(./blocks/bestsellers/__banner-star/bestsellers__banner-star.css);
+@import url(./blocks/bestsellers/__banner-span/bestsellers__banner-span.css);
+
+/* guitar-list */
+@import url(./blocks/guitar-list/guitar-list.css);
+@import url(./blocks/guitar-list/_centered/guitar-list_centered.css);
+@import url(./blocks/guitar-list/__item/guitar-list__item.css);
+@import url(./blocks/guitar-list/__item/_dark/guitar-list__item_dark.css);
+@import url(./blocks/guitar-list/__item-background/guitar-list__item-background.css);
+@import url(./blocks/guitar-list/__item-image/guitar-list__item-image.css);
+@import url(./blocks/guitar-list/__item-name/guitar-list__item-name.css);
+@import url(./blocks/guitar-list/__item-price/guitar-list__item-price.css);
+@import url(./blocks/guitar-list/__like-button/guitar-list__like-button.css);
+@import url(./blocks/guitar-list/_off-center/guitar-list_off-center.css);
+@import url(./blocks/guitar-list/__item/_narrow/guitar-list__item_narrow.css);
+@import url(./blocks/guitar-list/__like-button/_dark/guitar-list__like-button_dark.css);
+
+/* categories */
+@import url(./blocks/categories/categories.css);
+@import url(./blocks/categories/__list/categories__list.css);
+@import url(./blocks/categories/__list-item/categories__list-item.css);
+@import url(./blocks/categories/__list-item/_active/categories__list-item_active.css);
+@import url(./blocks/categories/__list-item/_electric/categories__list-item_electric.css);
+@import url(./blocks/categories/__list-item/_acoustic/categories__list-item_acoustic.css);
+@import url(./blocks/categories/__list-item/_bass/categories__list-item_bass.css);
+@import url(./blocks/categories/__list-item/_ukulele/categories__list-item_ukulele.css);
+@import url(./blocks/categories/__list-item/_accessories/categories__list-item_accessories.css);
+@import url(./blocks/categories/__list-item/_classical/categories__list-item_classical.css);
+
+/* new-arrivals */
+@import url(./blocks/new-arrivals/new-arrivals.css);
+@import url(./blocks/new-arrivals/__subtitle/new-arrivals__subtitle.css);
+@import url(./blocks/new-arrivals/__bold-span/new-arrivals__bold-span.css);
+@import url(./blocks/new-arrivals/__button/new-arrivals__button.css);
+
+/* news */
+@import url(./blocks/news/news.css);
+@import url(./blocks/news/news__grid/news__grid.css);
+@import url(./blocks/news-block/news-block.css);
+@import url(./blocks/news-block/_type/news-block_type_rect.css);
+@import url(./blocks/news-block/__image-rect/news-block__image-rect.css);
+@import url(./blocks/news-block/__title-rect/news-block__title-rect.css);
+@import url(./blocks/news-block/__arrow/news-block__arrow.css);
+@import url(./blocks/news-block/_type/news-block_type_square.css);
+@import url(./blocks/news-block/__image-square/news-block__image-square.css);
+@import url(./blocks/news-block/__title-square/news-block__title-square.css);
+@import url(./blocks/news-block/__subtitle/news-block__subtitle.css);
+
+/* footer */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__nav/footer__nav.css);
+@import url(./blocks/footer/__list/footer__list.css);
+@import url(./blocks/footer/__title/footer__title.css);
+@import url(./blocks/footer/__list-item/footer__list-item.css);
+@import url(./blocks/footer/__copyright/footer__copyright.css);

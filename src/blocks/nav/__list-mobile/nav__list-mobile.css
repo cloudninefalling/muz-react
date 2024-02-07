@@ -1,0 +1,18 @@
+.nav__list-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .nav__list-mobile {
+    display: block;
+
+    list-style: none;
+    display: flex;
+    padding: 12px 18px;
+    margin: 0;
+    box-sizing: border-box;
+    height: fit-content;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

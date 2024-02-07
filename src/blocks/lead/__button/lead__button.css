@@ -1,0 +1,34 @@
+.lead__button {
+  width: 172px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  display: grid;
+  grid-template-areas: "button";
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.lead__button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1000px) {
+  .lead__button {
+    right: 0;
+    left: 0;
+    bottom: 24px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .lead__button {
+    width: 100px;
+  }
+}

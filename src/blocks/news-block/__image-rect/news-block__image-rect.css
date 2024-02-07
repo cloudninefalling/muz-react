@@ -1,0 +1,6 @@
+.news-block__image-rect {
+  grid-area: image;
+  object-fit: cover;
+  aspect-ratio: 613/233;
+  width: 100%;
+}

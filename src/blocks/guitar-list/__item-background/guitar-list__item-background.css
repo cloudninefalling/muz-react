@@ -1,0 +1,10 @@
+.guitar-list__item-background {
+  grid-area: image;
+  cursor: pointer;
+  background-color: #f5f2eb;
+  display: flex;
+}
+
+.guitar-list__item-background:hover .guitar-list__item-image {
+  opacity: 0.8;
+}

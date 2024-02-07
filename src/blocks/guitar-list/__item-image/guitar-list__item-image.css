@@ -1,0 +1,7 @@
+.guitar-list__item-image {
+  grid-area: image;
+  z-index: 1;
+  margin: auto;
+  transition: opacity 0.2s ease;
+  height: 90%;
+}

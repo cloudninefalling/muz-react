@@ -1,0 +1,10 @@
+.guitar-list_off-center {
+  grid-area: guitar-list;
+  margin: 0 0 0 60px;
+}
+
+@media screen and (max-width: 720px) {
+  .guitar-list_off-center {
+    margin: 30px 30px 0;
+  }
+}

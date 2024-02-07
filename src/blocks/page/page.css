@@ -1,0 +1,20 @@
+.page {
+  min-width: 320px;
+  background-color: #f9f7f1;
+  font-family: "Neue Helvetica", sans-serif;
+  color: #0d0d0c;
+}
+
+.page::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url(../../images/categories/categories__list-item_acoustic.jpg)
+    url(../../images/categories/categories__list-item_accessories.jpg)
+    url(../../images/categories/categories__list-item_bass.jpg)
+    url(../../images/categories/categories__list-item_classical.jpg)
+    url(../../images/categories/categories__list-item_electric.jpg)
+    url(../../images/categories/categories__list-item_ukulele.jpg);
+}
