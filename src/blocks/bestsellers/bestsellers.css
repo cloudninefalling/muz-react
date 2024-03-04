@@ -1,6 +1,0 @@
-.bestsellers {
-  background-color: var(--black);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
