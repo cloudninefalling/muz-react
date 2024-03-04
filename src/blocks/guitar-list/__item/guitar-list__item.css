@@ -1,17 +1,33 @@
 .guitar-list__item {
   position: relative;
   display: grid;
-  min-width: 260px;
-  max-width: 260px;
+  min-width: 200px;
   grid-template-areas:
     "image image"
     ". ."
-    "name name"
-    ". ."
+    "name like"
     "price like";
-  grid-template-columns: auto 20px;
-  grid-template-rows: max-content 12px max-content 8px max-content;
-  color: #f9f7f1;
+  grid-template-columns: auto min-content;
+  grid-template-rows: 480px 6px max-content max-content;
+  color: var(--white);
+  text-decoration: none;
+  flex: 1 1 400px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 1200px) {
+  .guitar-list__item {
+    grid-template-rows: 420px 6px max-content max-content;
+  }
+}
 
-  flex: 1 1 auto;
+@media screen and (max-width: 800px) {
+  .guitar-list__item {
+    grid-template-rows: 340px 6px max-content max-content;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .guitar-list__item {
+    grid-template-rows: 50vh 6px max-content max-content;
+  }
 }

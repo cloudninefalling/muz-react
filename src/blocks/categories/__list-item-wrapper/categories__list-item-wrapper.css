@@ -1,0 +1,11 @@
+.categories__list-item-wrapper {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .categories__list-item-wrapper {
+    flex-direction: column;
+    width: 90%;
+  }
+}

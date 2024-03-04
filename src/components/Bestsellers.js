@@ -1,4 +1,4 @@
-import { bestsellers } from "../utils/constants";
+import { bestsellers } from "../utils/guitars";
 import GuitarList from "./GuitarList";
 
 export default function Bestsellers() {

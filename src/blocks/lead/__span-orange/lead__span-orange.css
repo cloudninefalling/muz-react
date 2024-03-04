@@ -1,9 +1,10 @@
 .lead__span-orange {
-  color: #e35325;
+  color: var(--orange);
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-size: 66px;
   line-height: 100%;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 720px) {

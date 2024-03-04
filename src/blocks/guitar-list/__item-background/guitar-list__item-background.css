@@ -1,8 +1,12 @@
 .guitar-list__item-background {
   grid-area: image;
   cursor: pointer;
-  background-color: #f5f2eb;
+  background-color: var(--grey);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .guitar-list__item-background:hover .guitar-list__item-image {

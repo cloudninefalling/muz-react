@@ -1,0 +1,15 @@
+.filter {
+  grid-area: filter;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+
+@media screen and (max-width: 1200px) {
+  .filter {
+    position: absolute;
+    top: -10px;
+    z-index: 1;
+    background-color: var(--white);
+  }
+}

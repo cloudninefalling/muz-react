@@ -1,5 +1,5 @@
 .bestsellers {
-  background-color: #0d0d0c;
+  background-color: var(--black);
   overflow: hidden;
   display: flex;
   flex-direction: column;

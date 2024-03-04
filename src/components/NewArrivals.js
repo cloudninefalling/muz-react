@@ -1,5 +1,5 @@
 import GuitarList from "./GuitarList";
-import { newArrivals } from "../utils/constants";
+import { newArrivals } from "../utils/guitars";
 
 export default function NewArrivals() {
   return (

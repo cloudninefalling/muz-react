@@ -1,32 +1,29 @@
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
+import { CATEGORIES } from "../utils/constants";
+import { HashLink } from "react-router-hash-link";
 
 export default function Header() {
-  const navListItemNames = [
-    "classical",
-    "acoustic",
-    "electric",
-    "bass",
-    "ukulele",
-    "accessories",
-  ];
-  const navListItems = navListItemNames.map((name, i) => {
+  const navListItems = CATEGORIES.map((name, i) => {
     return (
       <li key={`nav-list__item-${i}`}>
-        <a href="/" className="nav__list-item">
+        <Link to={`/catalog/${name}`} className="nav__list-item">
           {name}
-        </a>
+        </Link>
       </li>
     );
   });
 
   return (
     <header className="header">
-      <img className="header__logo" src={logo} alt="muztorg logo" />
+      <Link to="/">
+        <img className="header__logo" src={logo} alt="muztorg logo" />
+      </Link>
       <nav className="nav">
         <ul className="nav__list">
           {navListItems}
           <li>
-            <a href="/" className="nav__list-item">
+            <Link to="/cart" className="nav__list-item">
               <svg
                 className="nav__list-item-icon"
                 width="20"
@@ -43,19 +40,23 @@ export default function Header() {
                 />
               </svg>
               <span>Cart</span>
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="nav__list-mobile">
           <li id="link-to-categories">
-            <a className="nav__list-mobile-item" href="/">
+            <HashLink
+              smooth
+              to="/#categories"
+              className="nav__list-mobile-item"
+            >
               Categories
-            </a>
+            </HashLink>
           </li>
           <li>
-            <a href="/" className="nav__list-mobile-item">
+            <Link to="/cart" className="nav__list-mobile-item">
               Cart
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

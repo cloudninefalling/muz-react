@@ -1,21 +1,24 @@
 .categories__list-item {
   width: 150px;
+  max-width: 100%;
   height: 600px;
-  background-color: #e35325;
+  background-color: var(--orange);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  position: relative;
 
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
   line-height: 110%;
   text-transform: uppercase;
-  color: #f9f7f1;
+  color: var(--white);
   writing-mode: sideways-lr;
   text-align: center;
   transition: width 0.2s ease-in;
+  text-decoration: none;
   flex: 1 1 auto;
 }
 
@@ -30,24 +33,25 @@
 }
 @media screen and (max-width: 1000px) {
   .categories__list-item {
-    width: 90%;
-    height: 80px;
+    width: 100%;
+    height: 60px;
     transition: height 0.2s ease-in;
     writing-mode: unset;
   }
 
   .categories__list-item:hover {
-    width: 90%;
+    width: 100%;
     height: 200px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .categories__list-item {
-    height: 50px;
+    height: 40px;
+    font-size: 20px;
   }
 
   .categories__list-item:hover {
-    height: 150px;
+    height: 140px;
   }
 }

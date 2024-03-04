@@ -11,7 +11,7 @@
   overflow: hidden;
   max-width: 90%;
 
-  color: rgba(13, 13, 12, 0.9);
+  color: var(--black);
 
   overflow: hidden;
   text-overflow: ellipsis;

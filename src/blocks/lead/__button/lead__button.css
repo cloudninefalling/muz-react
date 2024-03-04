@@ -1,4 +1,5 @@
 .lead__button {
+  padding: 0;
   width: 172px;
   aspect-ratio: 1/1;
   position: absolute;
@@ -12,8 +13,17 @@
   transition: opacity 0.2s ease;
   border: none;
   background: none;
+  animation: fadeIn 2s ease-in;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .lead__button:hover {
   opacity: 0.6;
 }

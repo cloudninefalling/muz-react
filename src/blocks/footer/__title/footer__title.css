@@ -6,7 +6,7 @@
   text-transform: uppercase;
   color: rgba(249, 247, 241, 0.9);
   grid-area: title;
-  margin: 0 0 24px;
+  margin: 0 0 12px;
 }
 
 @media screen and (max-width: 720px) {

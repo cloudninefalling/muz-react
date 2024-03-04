@@ -4,7 +4,7 @@
   align-items: center;
   padding-left: 0;
   writing-mode: horizontal-tb;
-  color: #e35325;
+  color: var(--orange);
 }
 
 @media screen and (min-width: 1001px) {

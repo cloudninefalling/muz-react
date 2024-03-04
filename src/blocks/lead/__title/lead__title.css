@@ -5,7 +5,7 @@
   font-size: 56px;
   line-height: 110%;
   text-transform: uppercase;
-  color: rgba(13, 13, 12, 0.9);
+  color: var(--black);
   font-stretch: expanded;
   margin: calc(50vh - 56px) auto 18px;
   /* top margin = half screen - header - font size */

@@ -6,6 +6,5 @@
   color: inherit;
   grid-area: price;
   margin: 0;
-  cursor: pointer;
   width: min-content;
 }

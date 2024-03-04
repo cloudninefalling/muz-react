@@ -1,8 +1,6 @@
 /* page */
-@import url(./vendor/normalize.css);
 @import url(./vendor/fonts/fonts.css);
 @import url(./blocks/page/page.css);
-@import url(./blocks/full-vh-screen/full-vh-screen.css);
 
 /* header */
 @import url(./blocks/header/header.css);
@@ -58,6 +56,7 @@
 @import url(./blocks/categories/__list-item/_ukulele/categories__list-item_ukulele.css);
 @import url(./blocks/categories/__list-item/_accessories/categories__list-item_accessories.css);
 @import url(./blocks/categories/__list-item/_classical/categories__list-item_classical.css);
+@import url(./blocks/categories/__list-item-wrapper/categories__list-item-wrapper.css);
 
 /* new-arrivals */
 @import url(./blocks/new-arrivals/new-arrivals.css);

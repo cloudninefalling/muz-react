@@ -1,0 +1,22 @@
+.guitar-grid {
+  display: grid;
+  grid-area: list;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  margin: 0 0 40px;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 800px) {
+  .guitar-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 550px) {
+  .guitar-grid {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+}
