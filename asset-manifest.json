@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/muz-react/static/css/main.9f27052b.css",
-    "main.js": "/muz-react/static/js/main.7afd15c6.js",
+    "main.js": "/muz-react/static/js/main.30cf7fb3.js",
     "static/media/ibanez-tcm50-natural.png": "/muz-react/static/media/ibanez-tcm50-natural.3bc8b59d4c1f7668ad70.png",
     "static/media/ibanez-tcm50-sunburst.png": "/muz-react/static/media/ibanez-tcm50-sunburst.e559d40339157efcffdd.png",
     "static/media/ibanez-tcy10e-teal.png": "/muz-react/static/media/ibanez-tcy10e-teal.ccc9505d83b34b67f2c1.png",
@@ -50,10 +50,10 @@
     "static/media/checkbox_unchecked.svg": "/muz-react/static/media/checkbox_unchecked.02c6b0ff64c52c4045aa.svg",
     "static/media/minus.svg": "/muz-react/static/media/minus.446d023f6a8d9b9ff63c.svg",
     "main.9f27052b.css.map": "/muz-react/static/css/main.9f27052b.css.map",
-    "main.7afd15c6.js.map": "/muz-react/static/js/main.7afd15c6.js.map"
+    "main.30cf7fb3.js.map": "/muz-react/static/js/main.30cf7fb3.js.map"
   },
   "entrypoints": [
     "static/css/main.9f27052b.css",
-    "static/js/main.7afd15c6.js"
+    "static/js/main.30cf7fb3.js"
   ]
 }
