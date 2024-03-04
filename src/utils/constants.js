@@ -33,8 +33,4 @@ const newsBlocks = [
 
 const MANUFACTURERS = ["fender", "gibson", "ibanez", "yamaha"];
 
-const FIELDSETS = {
-  manufacturer: MANUFACTURERS,
-};
-
-export { newsBlocks, CATEGORIES, MANUFACTURERS, FIELDSETS };
+export { newsBlocks, CATEGORIES, MANUFACTURERS };

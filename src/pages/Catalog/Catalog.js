@@ -6,7 +6,6 @@ import {
   BASS_GUITARS,
   ACCESSORIES,
 } from "../../utils/guitars";
-import { FIELDSETS } from "../../utils/constants";
 import "./Catalog.css";
 import Filter from "../../components/Filter/Filter";
 import GuitarGrid from "../../components/GuitarGrid/GuitarGrid";
@@ -16,32 +15,53 @@ import { useState } from "react";
 
 export default function Catalog() {
   const location = useLocation();
-  const category = location.pathname.slice(9);
+  const curCategory = location.pathname.slice(9);
+
+  const getData = () => {
+    switch (curCategory) {
+      case "acoustic":
+        return ACOUSTIC_GUITARS;
+      case "electric":
+        return ELECTRIC_GUITARS;
+      case "bass":
+        return BASS_GUITARS;
+      case "classical":
+        return CLASSICAL_GUITARS;
+      case "ukulele":
+        return UKULELE;
+      case "accessories":
+        return ACCESSORIES;
+      default:
+        return [];
+    }
+  };
+
+  const guitars = getData();
+
+  const fieldsets = {
+    manufacturer: new Set(),
+    type: new Set(),
+  };
+
+  guitars.forEach((guitar) => {
+    Object.keys(fieldsets).forEach((key) => {
+      fieldsets[key].add(guitar[key]);
+    });
+  });
 
   const emptyFilter = {};
-  Object.keys(FIELDSETS).forEach((key) => {
+  Object.keys(fieldsets).forEach((key) => {
     emptyFilter[key] = [];
   });
   const [filter, setFilter] = useState(emptyFilter);
-
-  const guitarLists = {
-    acoustic: ACOUSTIC_GUITARS,
-    electric: ELECTRIC_GUITARS,
-    bass: BASS_GUITARS,
-    classical: CLASSICAL_GUITARS,
-    ukulele: UKULELE,
-    accessories: ACCESSORIES,
-  };
-
-  const guitars = guitarLists[category];
 
   const filteredGuitars = useFilter(guitars, filter);
 
   return (
     <main>
       <section className="catalog">
-        <h2 className="catalog__title">{category}</h2>
-        <Filter fieldsets={FIELDSETS} filter={filter} setFilter={setFilter} />
+        <h2 className="catalog__title">{curCategory}</h2>
+        <Filter fieldsets={fieldsets} filter={filter} setFilter={setFilter} />
         <GuitarGrid guitars={filteredGuitars} />
       </section>
     </main>

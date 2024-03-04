@@ -7,10 +7,6 @@ import imgAcoustasonicTele from "../images/guitars/telecaster-acoustasonic-ameri
 
 import imgJimmyPageTelecaster from "../images/guitars/telecaster-jimmy-page.png";
 
-import imgIbanezTcy10e from "../images/guitars/ibanez-tcy10e.png";
-import imgIbanezTcy10eTeal from "../images/guitars/ibanez-tcy10e-teal.png";
-import imgIbanezTcy10ePurple from "../images/guitars/ibanez-tcy10e-purple.png";
-
 import imgIbanezTcm50Black from "../images/guitars/ibanez-tcm50.png";
 import imgIbanezTcm50Sunburst from "../images/guitars/ibanez-tcm50-sunburst.png";
 import imgIbanezTcm50Natural from "../images/guitars/ibanez-tcm50-natural.png";
@@ -25,26 +21,113 @@ import imgFenderJazzBass from "../images/bass_guitars/fender-jazz-bass.png";
 import imgFenderJazzBassNatural from "../images/bass_guitars/fender-jazz-bass-natural.png";
 import imgFenderJazzBassSunburst from "../images/bass_guitars/fender-jazz-bass-sunburst.png";
 
+import imgYamahaC40 from "../images/guitars/yamaha-c40.png";
+
+import imgVestonC45aNatural from "../images/guitars/veston-c45a-natural.png";
+import imgVestonC45aBlack from "../images/guitars/veston-c45a-black.png";
+
+import imgFenderTuner from "../images/guitars/fender-original-tuner.png";
+import imgFenderDragonCapo from "../images/guitars/fender-dragon-capo.png";
+
+import imgEpiphoneLesPaulUkuleleRed from "../images/guitars/epiphone-ukulele-red.png";
+import imgEpiphoneLesPaulUkuleleBlack from "../images/guitars/epiphone-ukulele-black.png";
+
+import imgFlightDUC450 from "../images/guitars/flight-duc450.png";
+import imgFlightDUC450Black from "../images/guitars/flight-duc460-black.png";
+
 const GUITARS = [
   {
-    id: "acoustic_1",
-    category: "acoustic",
-    type: "electroacoustic",
-    manufacturer: "ibanez",
-    img: imgIbanezTcy10e,
+    id: "ukulele_0",
+    category: "ukulele",
+    type: "concert",
+    manufacturer: "FLIGHT",
+    img: imgFlightDUC450,
     colors: {
-      black: imgIbanezTcy10e,
-      teal: imgIbanezTcy10eTeal,
-      purple: imgIbanezTcy10ePurple,
+      natural: imgFlightDUC450,
+      black: imgFlightDUC450Black,
     },
-    name: "Ibanez TCY10E",
-    description: [
-      "The Ibanez TCY10E Talman is a compact and lightweight electro-acoustic guitar, giving the gigging player the same type of mobility as an electric guitar player on stage. ",
-      "The Ibanez TCY10E electro-acoustic guitar features the Ibanex AEQ200T 2-band tone control with built-in tuner is optimized for use with the Ibanez Under Saddle Pickup. The 7 segment LED display enables you to tune, wherever and whenever necessary.",
-    ],
-    price: 300,
+    name: "Flight DUC450",
+    price: 200,
     bestseller: false,
-    new: true,
+    description: [
+      "How would you like a ukulele that looks stunning, sounds great and is eco-friendly at the same time? Each of our mango ukuleles has its own identity, thanks to the unique and beautiful patterns found on each one, you never know what awaits you inside the box! Not only are there stunning patterns, but the colors themselves are mesmerizing,  ranging from shades of green to red or grey. No two Flight Mango ukuleles are the same, which makes your ukulele one of a kind!",
+    ],
+  },
+  {
+    id: "ukulele_1",
+    category: "ukulele",
+    type: "concert",
+    manufacturer: "epiphone",
+    img: imgEpiphoneLesPaulUkuleleRed,
+    colors: {
+      red: imgEpiphoneLesPaulUkuleleRed,
+      black: imgEpiphoneLesPaulUkuleleBlack,
+    },
+    name: "Epiphone Les Paul Ukulele",
+    price: 200,
+    bestseller: false,
+    description: [
+      "Long known for its history of making great Les Paul™ guitars, Epiphone presents the Les Paul Concert Ukulele.",
+      `Like a traditional Les Paul Standard, the Les Paul Concert Ukulele features a mahogany body combined with a maple top with a AAA grade flame maple top veneer for great tone and a great look, featuring a mahogany neck with a SlimTaper™ D profile shape with 19 frets, a 15" scale length, and a 16" fingerboard radius. `,
+    ],
+  },
+  {
+    id: "tuner_1",
+    category: "accessories",
+    type: "tuner",
+    manufacturer: "fender",
+    img: imgFenderTuner,
+    colors: { black: imgFenderTuner },
+    name: "Fender Original Tuner",
+    price: 30,
+    bestseller: false,
+    description: [
+      "Engineered for players who need a compact, reliable and accurate tuning system, the Fender Original Tuner delivers on all of these criteria - plus a shot of signature style.",
+      "The powerful vibration-based tuning engine ensures dependable precision, while the bright LCD screen with 360° angle-adjustable swivel is easy-to-read in any performance environment.",
+      "Featuring Fender color-matched-to-guitar colors, this tuner is a sure-fire Fender lover's favorite.",
+    ],
+  },
+  {
+    id: "capo_1",
+    category: "accessories",
+    type: "capo",
+    manufacturer: "fender",
+    img: imgFenderDragonCapo,
+    colors: { black: imgFenderDragonCapo },
+    name: "Fender Dragon Capo",
+    price: 15,
+    bestseller: false,
+    description: [
+      "Simple to use and made with durable lightweight cast aluminum, the Dragon Capo delivers ideal capo performance anywhere along the neck of any acoustic or electric guitar.",
+      "Convenient micro-dial thumbscrew lets you change positions quickly and easily with just the right pressure at any fret, and special protective pads won't harm neck finishes.",
+    ],
+  },
+  {
+    id: "classical_4",
+    category: "classical",
+    type: "classical",
+    manufacturer: "yamaha",
+    img: imgYamahaC40,
+    colors: { natural: imgYamahaC40 },
+    name: "Yamaha C40",
+    price: 200,
+    bestseller: false,
+    description: [
+      "The Yamaha C40 is a very affordable classic guitar with good quality, which makes it a good choice for first learning instrument.",
+      "The timbre and quality of construction make many teachers recommend it as a safe choice, based on the fact that it is important that the first instrument is of good quality.",
+    ],
+  },
+  {
+    id: "classical_1",
+    category: "classical",
+    type: "classical",
+    manufacturer: "veston",
+    img: imgVestonC45aBlack,
+    colors: { natural: imgVestonC45aNatural, black: imgVestonC45aBlack },
+    name: "Veston C45A",
+    price: 85,
+    bestseller: false,
+    description: ["much classical", "very popular", "pls buy"],
   },
   {
     id: "acoustic_4",
@@ -178,21 +261,22 @@ const GUITARS = [
       natural: imgFenderJazzBassNatural,
       sunburst: imgFenderJazzBassSunburst,
     },
-    name: "Fender Jazz Bass",
+    name: "Fender American Professional II Jazz Bass",
     price: 1549,
     new: true,
     description: [
-      "With its dual single-coil pickups and smooth playing feel, the Player Jazz Bass is an inspiring instrument with classic, elevated style and authentic Fender bass tone.",
-      "Its powerful, rumbling sound is punchy and tight; a growling voice that's matched with fast, smooth playing feel for a shot of creative inspiration. Ready for action in the studio, or on the stage, the Player Jazz Bass can take anything you can think of - and everything you haven't yet.",
+      "The American Professional II Jazz Bass® draws from more than sixty years of innovation, inspiration and evolution to meet the demands of today's working player.",
+      `Our popular Slim "C" neck now sports smooth rolled fingerboard edges, a "Super-Natural" satin finish and a newly sculpted neck heel for a supremely comfortable feel and easy access to the upper register. New V-Mod II Jazz Bass single-coil pickups are more articulate than ever while delivering the punch and clarity the Jazz Bass is known for.`,
+      `The American Pro II Jazz Bass delivers instant familiarity and sonic versatility you'll feel and hear right away, with broad ranging improvements that add up to nothing less than a new standard for professional instruments.`,
     ],
   },
 ];
 
 const BASS_GUITARS = GUITARS.filter((item) => item.category === "bass");
 
-const UKULELE = [];
+const UKULELE = GUITARS.filter((item) => item.category === "ukulele");
 
-const ACCESSORIES = [];
+const ACCESSORIES = GUITARS.filter((item) => item.category === "accessories");
 
 const ACOUSTIC_GUITARS = GUITARS.filter((item) => item.category === "acoustic");
 const ELECTRIC_GUITARS = GUITARS.filter((item) => item.category === "electric");

@@ -4,6 +4,7 @@ import "./FilterFieldset.css";
 
 const FilterFieldset = ({ title, options, handleChange }) => {
   const [isChecked, setIsChecked] = useState(false);
+  // todo add indicator for active fieldset
 
   const onChange = (value) => {
     handleChange(title, value);

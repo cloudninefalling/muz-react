@@ -8,9 +8,7 @@
     "image . price"
     "image . options"
     "image . button"
-    "description description description"
-    "specs-title . ."
-    "specs specs specs";
+    "description description description";
   grid-template-columns: minmax(200px, 600px) 40px minmax(200px, 500px);
   grid-template-rows: 1fr min-content 2fr min-content auto;
   justify-content: space-between;
@@ -132,10 +130,6 @@
   text-transform: capitalize;
 }
 
-.product__specs-title {
-  grid-area: specs-title;
-}
-
 .product__description-wrapper {
   grid-area: description;
   margin-top: 60px;
@@ -163,9 +157,7 @@
       "image image"
       "price options"
       "button button"
-      "description description"
-      "specs-title specs-title"
-      "specs specs";
+      "description description";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     row-gap: 10px;

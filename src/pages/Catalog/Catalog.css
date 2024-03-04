@@ -6,7 +6,7 @@
     "filter list";
   row-gap: 60px;
   column-gap: 40px;
-  grid-template-columns: auto auto;
+  grid-template-columns: 160px auto;
   max-width: 100%;
   box-sizing: border-box;
   position: relative;

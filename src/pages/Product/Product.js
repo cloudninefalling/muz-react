@@ -6,6 +6,9 @@ import {
   ELECTRIC_GUITARS,
   ACOUSTIC_GUITARS,
   BASS_GUITARS,
+  CLASSICAL_GUITARS,
+  UKULELE,
+  ACCESSORIES,
 } from "../../utils/guitars";
 
 // todo image carousel
@@ -32,20 +35,33 @@ export default function Product() {
     } else {
       setIsSuccessfullyAdded(false);
       clearTimeout(timeout);
-      switchIsSuccessfullyAdded(); // todo better (fire animation on every click)
+      switchIsSuccessfullyAdded(); // todo better (fire animation on every click) or mb popup window?
     }
   };
 
   const productId = useParams().product;
-  const category = useParams().category;
+  const curCategory = useParams().category;
 
-  const categories = {
-    electric: ELECTRIC_GUITARS,
-    acoustic: ACOUSTIC_GUITARS,
-    bass: BASS_GUITARS,
+  const getData = () => {
+    switch (curCategory) {
+      case "acoustic":
+        return ACOUSTIC_GUITARS;
+      case "electric":
+        return ELECTRIC_GUITARS;
+      case "bass":
+        return BASS_GUITARS;
+      case "classical":
+        return CLASSICAL_GUITARS;
+      case "ukulele":
+        return UKULELE;
+      case "accessories":
+        return ACCESSORIES;
+      default:
+        return [];
+    }
   };
 
-  const productList = categories[category];
+  const productList = getData();
 
   const product = productList.find((item) => item.id === productId);
 
@@ -100,9 +116,6 @@ export default function Product() {
           <h2 className="product__subtitle">About</h2>
           {renderDescription()}
         </div>
-        <h2 className="product__subtitle product__specs-title">
-          Specifications
-        </h2>
       </section>
     </main>
   );

@@ -21,7 +21,7 @@ export default function Filter({ fieldsets, filter, setFilter }) {
       <FilterFieldset
         key={Object.keys(fieldsets)[i]}
         title={Object.keys(fieldsets)[i]}
-        options={fieldsets[fieldset]}
+        options={Array.from(fieldsets[fieldset])}
         handleChange={handleChange}
       />
     );
