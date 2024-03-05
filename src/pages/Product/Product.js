@@ -78,45 +78,43 @@ export default function Product() {
   };
 
   return (
-    <main>
-      <section className="product">
-        <img
-          className="product__image"
-          src={product.colors[currentColor]}
-          alt={product.name}
+    <section className="product">
+      <img
+        className="product__image"
+        src={product.colors[currentColor]}
+        alt={product.name}
+      />
+      <h1 className="product__title">{product.name}</h1>
+      <p className="product__price">${product.price}</p>
+      <div className="product__options">
+        <h2 className="product__options-title">Color</h2>
+        <p className="product__options-text">{currentColor}</p>
+        <RadioGroup
+          options={Object.keys(product.colors)}
+          selected={currentColor}
+          setSelected={setCurrentColor}
         />
-        <h1 className="product__title">{product.name}</h1>
-        <p className="product__price">${product.price}</p>
-        <div className="product__options">
-          <h2 className="product__options-title">Color</h2>
-          <p className="product__options-text">{currentColor}</p>
-          <RadioGroup
-            options={Object.keys(product.colors)}
-            selected={currentColor}
-            setSelected={setCurrentColor}
-          />
-        </div>
-        <div className="product__button-wrapper">
-          <p
-            className={`product__button-alert ${
-              isSuccessfullyAdded ? "product__button-alert_active" : ""
-            }`}
-          >
-            Successfully added to cart!
-          </p>
-          <button
-            className="product__button"
-            type="button"
-            onClick={() => addToCart(product, currentColor)}
-          >
-            Add to Cart
-          </button>
-        </div>
-        <div className="product__description-wrapper">
-          <h2 className="product__subtitle">About</h2>
-          {renderDescription()}
-        </div>
-      </section>
-    </main>
+      </div>
+      <div className="product__button-wrapper">
+        <p
+          className={`product__button-alert ${
+            isSuccessfullyAdded ? "product__button-alert_active" : ""
+          }`}
+        >
+          Successfully added to cart!
+        </p>
+        <button
+          className="product__button"
+          type="button"
+          onClick={() => addToCart(product, currentColor)}
+        >
+          Add to Cart
+        </button>
+      </div>
+      <div className="product__description-wrapper">
+        <h2 className="product__subtitle">About</h2>
+        {renderDescription()}
+      </div>
+    </section>
   );
 }

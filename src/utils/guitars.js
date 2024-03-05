@@ -191,6 +191,7 @@ const GUITARS = [
     },
     name: "Cory Wong Stratocaster®",
     price: 1999,
+    new: true,
     bestseller: true,
     description: [
       "Recognized for his incredible funk chops and inventive lead work, guitarist, producer, and arranger Cory Wong's soulful playing with Vulfpeck, as well as his Grammy-nominated solo work have earned him a loyal following and led to sold-out arena performances. The Cory Wong Stratocaster® is a tribute to Cory's favorite Fender®, thoughtfully modified to meet the funk master's needs.",
@@ -211,6 +212,7 @@ const GUITARS = [
     name: "Player Stratocaster® HSS",
     price: 829,
     bestseller: true,
+    new: true,
     description: [
       "Real Deal Sound.",
       "The inspiring sound of a Stratocaster is one of the foundations of Fender. Featuring this classic sound - bell-like high end, punchy mids and robust low end, combined with crystal-clear articulation - the sonically flexible Player Stratocaster HSS is packed with authentic Fender feel and style. It's ready to serve your musical vision, it's versatile enough to handle any style of music and it's the perfect platform for creating your own sound.",

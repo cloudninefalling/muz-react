@@ -1,5 +1,6 @@
 import GuitarList from "./GuitarList";
 import { newArrivals } from "../utils/guitars";
+import { Link } from "react-router-dom";
 
 export default function NewArrivals() {
   return (
@@ -13,7 +14,14 @@ export default function NewArrivals() {
         of&nbsp;the highest quality wood species, premium lacquers and paints,
         as&nbsp;well as&nbsp;the most accurate electronics.
       </p>
-      <button className="new-arrivals__button" type="button"></button>
+      <Link
+        to="/catalog/new"
+        className="new-arrivals__button"
+        type="button"
+      ></Link>
+      {
+        // todo link button to /categories/new-arrivals
+      }
 
       <GuitarList isCentered={false} guitars={newArrivals} />
     </section>

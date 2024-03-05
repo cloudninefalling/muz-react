@@ -35,31 +35,33 @@ function App() {
       value={{ cart, setCart, handleAddToCart, handleRemoveFromCart }}
     >
       <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Lead />
-              <Content />
-            </>
-          }
-        />
-        <Route
-          path="/catalog/:category"
-          element={
-            <>
-              <Catalog />
-            </>
-          }
-        />
-        <Route
-          path="products/:category/:product"
-          element={<Product handleAddToCart={handleAddToCart} />}
-        />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/*" element={<PageNotFound />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Lead />
+                <Content />
+              </>
+            }
+          />
+          <Route
+            path="/catalog/:category"
+            element={
+              <>
+                <Catalog />
+              </>
+            }
+          />
+          <Route
+            path="products/:category/:product"
+            element={<Product handleAddToCart={handleAddToCart} />}
+          />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/*" element={<PageNotFound />} />
+        </Routes>
+      </main>
       <Footer />
     </CartContext.Provider>
   );

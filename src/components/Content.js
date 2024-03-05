@@ -5,11 +5,11 @@ import News from "./News";
 
 export default function Content() {
   return (
-    <main className="content">
+    <section>
       <Bestsellers />
       <Categories />
       <NewArrivals />
       <News />
-    </main>
+    </section>
   );
 }

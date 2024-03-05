@@ -32,7 +32,10 @@ const FilterFieldset = ({ title, options, handleChange }) => {
         className="filter__container"
         style={
           isChecked
-            ? { height: `calc(22px * ${options.length})` }
+            ? {
+                height: `calc(26px * ${options.length})`,
+                backgroundColor: "var(--white)",
+              }
             : { height: "0" }
         }
       >

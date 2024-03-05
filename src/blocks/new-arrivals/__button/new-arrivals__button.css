@@ -8,6 +8,11 @@
   justify-self: end;
   margin-top: 73px;
   padding: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.new-arrivals__button:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 720px) {

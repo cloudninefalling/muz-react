@@ -1,11 +1,11 @@
 .categories__list {
   list-style: none;
-  margin: 0 60px 70px;
-  padding: 0;
+  margin: 0 auto 70px;
+  padding: 0 60px;
   display: flex;
   gap: 10px;
   justify-content: center;
-  max-width: 1240px;
+  max-width: 1500px;
 }
 
 @media screen and (max-width: 1000px) {

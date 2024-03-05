@@ -1,5 +1,5 @@
 .catalog {
-  margin: 120px 60px 0;
+  padding: 120px 60px 0;
   display: grid;
   grid-template-areas:
     "title title"
@@ -7,9 +7,8 @@
   row-gap: 60px;
   column-gap: 40px;
   grid-template-columns: 160px auto;
-  max-width: 100%;
+  width: 100%;
   box-sizing: border-box;
-  position: relative;
 }
 
 .catalog__title {
@@ -33,13 +32,13 @@
       "list";
     grid-template-columns: auto;
     grid-template-rows: auto;
+    row-gap: 16px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .catalog {
-    margin: 110px 5vw 40px;
-    row-gap: 30px;
+    padding: 110px 5vw 40px;
   }
   .catalog__title {
     text-align: center;

@@ -3,13 +3,12 @@
   display: flex;
   flex-direction: column;
   width: 160px;
+  gap: 16px;
 }
 
 @media screen and (max-width: 1200px) {
   .filter {
-    position: absolute;
-    top: -10px;
-    z-index: 1;
-    background-color: var(--white);
+    flex-direction: row;
+    width: auto;
   }
 }

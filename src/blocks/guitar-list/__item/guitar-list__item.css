@@ -1,7 +1,8 @@
 .guitar-list__item {
   position: relative;
   display: grid;
-  min-width: 200px;
+  min-width: 280px;
+  max-width: 480px;
   grid-template-areas:
     "image image"
     ". ."
@@ -11,8 +12,10 @@
   grid-template-rows: 480px 6px max-content max-content;
   color: var(--white);
   text-decoration: none;
-  flex: 1 1 400px;
+  flex: 1 1 420px;
   text-transform: capitalize;
+
+  z-index: -1;
 }
 @media screen and (max-width: 1200px) {
   .guitar-list__item {

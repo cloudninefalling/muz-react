@@ -5,8 +5,8 @@
     "subtitle guitar-list"
     "button guitar-list";
   overflow-x: hidden;
-  grid-template-columns: fit-content 1fr;
-  padding-bottom: 100px;
+  grid-template-columns: 1fr 2fr;
+  padding: 0 60px 100px 0;
 }
 
 @media screen and (max-width: 720px) {
@@ -16,7 +16,7 @@
       "subtitle"
       "guitar-list";
     grid-template-columns: 1fr;
-    padding-bottom: 0;
+    padding: 0;
     margin-bottom: 30px;
   }
 }

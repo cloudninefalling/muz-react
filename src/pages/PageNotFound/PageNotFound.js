@@ -3,7 +3,7 @@ import "./PageNotFound.css";
 export default function PageNotFound() {
   const navigate = useNavigate();
   return (
-    <main className="page-not-found">
+    <section className="page-not-found">
       <h2 className="page-not-found__title">404</h2>
       <p className="page-not-found__subtitle">This page doesn't exist. </p>
       <button
@@ -13,6 +13,6 @@ export default function PageNotFound() {
       >
         Go back
       </button>
-    </main>
+    </section>
   );
 }

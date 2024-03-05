@@ -9,14 +9,15 @@
   list-style: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .guitar-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 640px) {
   .guitar-grid {
     grid-template-columns: 1fr;
     row-gap: 20px;
+    justify-self: center;
   }
 }

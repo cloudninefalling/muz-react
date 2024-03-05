@@ -33,7 +33,7 @@ const LeadSpanDynamic = () => {
       iterator >= MANUFACTURERS.length - 1
         ? setIterator(0)
         : setIterator(iterator + 1);
-    }, 1200);
+    }, 1000);
   }
 
   React.useEffect(() => {

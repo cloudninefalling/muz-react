@@ -1,3 +1,4 @@
 .guitar-list__item_narrow {
   width: 295px;
+  z-index: -1;
 }

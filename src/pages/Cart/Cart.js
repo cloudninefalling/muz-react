@@ -26,28 +26,22 @@ const Cart = () => {
   });
 
   return (
-    <main>
-      <section className="cart">
-        <h1 className="cart__title">Cart</h1>
-        <div className="cart__button-wrapper">
-          <button
-            className="cart__button"
-            type="button"
-            onClick={handleCheckout}
-          >
-            Checkout
-          </button>
-          <button
-            className="cart__button cart__button_inverse"
-            type="button"
-            onClick={handleClearCart}
-          >
-            Clear
-          </button>
-        </div>
-        <ul className="cart__list">{renderCartItems}</ul>
-      </section>
-    </main>
+    <section className="cart">
+      <h1 className="cart__title">Cart</h1>
+      <div className="cart__button-wrapper">
+        <button className="cart__button" type="button" onClick={handleCheckout}>
+          Checkout
+        </button>
+        <button
+          className="cart__button cart__button_inverse"
+          type="button"
+          onClick={handleClearCart}
+        >
+          Clear
+        </button>
+      </div>
+      <ul className="cart__list">{renderCartItems}</ul>
+    </section>
   );
 };
 

@@ -5,6 +5,7 @@ import {
   UKULELE,
   BASS_GUITARS,
   ACCESSORIES,
+  newArrivals,
 } from "../../utils/guitars";
 import "./Catalog.css";
 import Filter from "../../components/Filter/Filter";
@@ -31,6 +32,8 @@ export default function Catalog() {
         return UKULELE;
       case "accessories":
         return ACCESSORIES;
+      case "new":
+        return newArrivals;
       default:
         return [];
     }
@@ -58,12 +61,10 @@ export default function Catalog() {
   const filteredGuitars = useFilter(guitars, filter);
 
   return (
-    <main>
-      <section className="catalog">
-        <h2 className="catalog__title">{curCategory}</h2>
-        <Filter fieldsets={fieldsets} filter={filter} setFilter={setFilter} />
-        <GuitarGrid guitars={filteredGuitars} />
-      </section>
-    </main>
+    <section className="catalog">
+      <h2 className="catalog__title">{curCategory}</h2>
+      <Filter fieldsets={fieldsets} filter={filter} setFilter={setFilter} />
+      <GuitarGrid guitars={filteredGuitars} />
+    </section>
   );
 }
