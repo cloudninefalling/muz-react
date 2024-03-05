@@ -12,11 +12,22 @@
 @media screen and (max-width: 720px) {
   .new-arrivals {
     grid-template-areas:
-      "title"
-      "subtitle"
-      "guitar-list";
-    grid-template-columns: 1fr;
+      "title title"
+      "subtitle button"
+      "guitar-list guitar-list";
+    grid-template-columns: 2fr 1fr;
     padding: 0;
     margin-bottom: 30px;
+  }
+}
+
+@media screen AND (max-width: 560px) {
+  .new-arrivals {
+    grid-template-areas:
+      "title "
+      "subtitle"
+      "button"
+      "guitar-list";
+    grid-template-columns: 1fr;
   }
 }

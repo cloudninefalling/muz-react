@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -5,97 +7,92 @@ export default function Footer() {
         <ul className="footer__list">
           <h2 className="footer__title">products</h2>
           <li>
-            <a href="/" className="footer__list-item">
-              Classical
-            </a>
-          </li>
-          <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/catalog/acoustic" className="footer__list-item">
               Acoustic
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/catalog/electric" className="footer__list-item">
               Electric
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/catalog/bass" className="footer__list-item">
               Bass
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/catalog/ukulele" className="footer__list-item">
               Ukulele
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/catalog/accessories" className="footer__list-item">
               Accessories
-            </a>
+            </Link>
           </li>
         </ul>
 
         <ul className="footer__list">
           <h2 className="footer__title">about us</h2>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               Newsroom
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               Support
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               Careers
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               Contact us
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               Manuals
-            </a>
+            </Link>
           </li>
         </ul>
 
         <ul className="footer__list">
           <h2 className="footer__title">regions</h2>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               North America
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               South America
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               South-East Asia
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               Europe
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="footer__list-item">
+            <Link to="/" className="footer__list-item">
               Australia
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

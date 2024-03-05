@@ -44,3 +44,10 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .catalog__title {
+    width: max-content;
+    margin: 0 auto;
+  }
+}

@@ -12,3 +12,9 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .filter {
+    margin: 0 auto;
+  }
+}

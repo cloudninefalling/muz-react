@@ -6,7 +6,6 @@ import {
   ELECTRIC_GUITARS,
   ACOUSTIC_GUITARS,
   BASS_GUITARS,
-  CLASSICAL_GUITARS,
   UKULELE,
   ACCESSORIES,
 } from "../../utils/guitars";
@@ -50,8 +49,6 @@ export default function Product() {
         return ELECTRIC_GUITARS;
       case "bass":
         return BASS_GUITARS;
-      case "classical":
-        return CLASSICAL_GUITARS;
       case "ukulele":
         return UKULELE;
       case "accessories":

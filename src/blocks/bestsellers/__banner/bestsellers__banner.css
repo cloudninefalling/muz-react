@@ -3,7 +3,7 @@
   margin-bottom: 60px;
   display: flex;
   gap: 36px;
-  width: 150%;
+  width: calc(100% + 465px);
   align-items: center;
   border-top: 1px solid rgba(250, 249, 245, 0.2);
   border-bottom: 1px solid rgba(250, 249, 245, 0.2);

@@ -13,12 +13,12 @@ export default function GuitarList({ isCentered, guitars }) {
   });
 
   return (
-    <ul
-      className={`guitar-list ${
-        isCentered ? "guitar-list_centered" : "guitar-list_off-center"
+    <div
+      className={`guitar-list__container ${
+        isCentered ? "guitar-list__container_centered" : ""
       }`}
     >
-      {guitarsArray}
-    </ul>
+      <ul className={`guitar-list`}>{guitarsArray}</ul>
+    </div>
   );
 }

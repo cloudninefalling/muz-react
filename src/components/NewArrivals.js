@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function NewArrivals() {
   return (
     <section className="new-arrivals">
-      <h2 className="section-title">new arrivals</h2>
+      <h2 className="section-title new-arrivals__title">new arrivals</h2>
       <p className="new-arrivals__subtitle">
         The new line of&nbsp;
         <span className="new-arrivals__bold-span">Fender Rarities </span>
@@ -19,10 +19,6 @@ export default function NewArrivals() {
         className="new-arrivals__button"
         type="button"
       ></Link>
-      {
-        // todo link button to /categories/new-arrivals
-      }
-
       <GuitarList isCentered={false} guitars={newArrivals} />
     </section>
   );

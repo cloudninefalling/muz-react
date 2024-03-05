@@ -1,19 +1,23 @@
 .guitar-list {
   list-style: none;
   display: flex;
-  padding: 0;
+  padding-inline: 16px;
   gap: 20px;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   justify-content: safe center;
   scrollbar-width: none;
-  box-shadow: inset 0 0 12px var(--black);
-  border-radius: 4px;
   background: transparent;
-  position: relative;
+  grid-area: guitar-list;
 }
 
 .guitar-list::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .guitar-list {
+    padding-inline: 8px;
+  }
 }

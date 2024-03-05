@@ -21,11 +21,6 @@ import imgFenderJazzBass from "../images/bass_guitars/fender-jazz-bass.png";
 import imgFenderJazzBassNatural from "../images/bass_guitars/fender-jazz-bass-natural.png";
 import imgFenderJazzBassSunburst from "../images/bass_guitars/fender-jazz-bass-sunburst.png";
 
-import imgYamahaC40 from "../images/guitars/yamaha-c40.png";
-
-import imgVestonC45aNatural from "../images/guitars/veston-c45a-natural.png";
-import imgVestonC45aBlack from "../images/guitars/veston-c45a-black.png";
-
 import imgFenderTuner from "../images/guitars/fender-original-tuner.png";
 import imgFenderDragonCapo from "../images/guitars/fender-dragon-capo.png";
 
@@ -101,33 +96,6 @@ const GUITARS = [
       "Simple to use and made with durable lightweight cast aluminum, the Dragon Capo delivers ideal capo performance anywhere along the neck of any acoustic or electric guitar.",
       "Convenient micro-dial thumbscrew lets you change positions quickly and easily with just the right pressure at any fret, and special protective pads won't harm neck finishes.",
     ],
-  },
-  {
-    id: "classical_4",
-    category: "classical",
-    type: "classical",
-    manufacturer: "yamaha",
-    img: imgYamahaC40,
-    colors: { natural: imgYamahaC40 },
-    name: "Yamaha C40",
-    price: 200,
-    bestseller: false,
-    description: [
-      "The Yamaha C40 is a very affordable classic guitar with good quality, which makes it a good choice for first learning instrument.",
-      "The timbre and quality of construction make many teachers recommend it as a safe choice, based on the fact that it is important that the first instrument is of good quality.",
-    ],
-  },
-  {
-    id: "classical_1",
-    category: "classical",
-    type: "classical",
-    manufacturer: "veston",
-    img: imgVestonC45aBlack,
-    colors: { natural: imgVestonC45aNatural, black: imgVestonC45aBlack },
-    name: "Veston C45A",
-    price: 85,
-    bestseller: false,
-    description: ["much classical", "very popular", "pls buy"],
   },
   {
     id: "acoustic_4",
@@ -282,9 +250,7 @@ const ACCESSORIES = GUITARS.filter((item) => item.category === "accessories");
 
 const ACOUSTIC_GUITARS = GUITARS.filter((item) => item.category === "acoustic");
 const ELECTRIC_GUITARS = GUITARS.filter((item) => item.category === "electric");
-const CLASSICAL_GUITARS = GUITARS.filter(
-  (item) => item.category === "classical"
-);
+
 const bestsellers = GUITARS.filter((item) => item.bestseller === true);
 const newArrivals = GUITARS.filter((item) => item.new === true).reverse();
 
@@ -292,7 +258,6 @@ export {
   GUITARS,
   ACOUSTIC_GUITARS,
   ELECTRIC_GUITARS,
-  CLASSICAL_GUITARS,
   BASS_GUITARS,
   UKULELE,
   ACCESSORIES,

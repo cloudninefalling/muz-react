@@ -14,8 +14,7 @@
   text-decoration: none;
   flex: 1 1 420px;
   text-transform: capitalize;
-
-  z-index: -1;
+  pointer-events: all;
 }
 @media screen and (max-width: 1200px) {
   .guitar-list__item {
@@ -29,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 640px) {
   .guitar-list__item {
     grid-template-rows: 50vh 6px max-content max-content;
   }

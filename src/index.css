@@ -31,8 +31,9 @@
 @import url(./blocks/bestsellers/__banner-span/bestsellers__banner-span.css);
 
 /* guitar-list */
+@import url(./blocks/guitar-list/__container/guitar-list__container.css);
+@import url(./blocks/guitar-list/__container/guitar-list__container_centered.css);
 @import url(./blocks/guitar-list/guitar-list.css);
-@import url(./blocks/guitar-list/_centered/guitar-list_centered.css);
 @import url(./blocks/guitar-list/__item/guitar-list__item.css);
 @import url(./blocks/guitar-list/__item/_dark/guitar-list__item_dark.css);
 @import url(./blocks/guitar-list/__item-background/guitar-list__item-background.css);
@@ -40,7 +41,6 @@
 @import url(./blocks/guitar-list/__item-name/guitar-list__item-name.css);
 @import url(./blocks/guitar-list/__item-price/guitar-list__item-price.css);
 @import url(./blocks/guitar-list/__like-button/guitar-list__like-button.css);
-@import url(./blocks/guitar-list/_off-center/guitar-list_off-center.css);
 @import url(./blocks/guitar-list/__item/_narrow/guitar-list__item_narrow.css);
 @import url(./blocks/guitar-list/__like-button/_dark/guitar-list__like-button_dark.css);
 
@@ -54,11 +54,11 @@
 @import url(./blocks/categories/__list-item/_bass/categories__list-item_bass.css);
 @import url(./blocks/categories/__list-item/_ukulele/categories__list-item_ukulele.css);
 @import url(./blocks/categories/__list-item/_accessories/categories__list-item_accessories.css);
-@import url(./blocks/categories/__list-item/_classical/categories__list-item_classical.css);
 @import url(./blocks/categories/__list-item-wrapper/categories__list-item-wrapper.css);
 
 /* new-arrivals */
 @import url(./blocks/new-arrivals/new-arrivals.css);
+@import url(./blocks/new-arrivals/new-arrivals__title.css);
 @import url(./blocks/new-arrivals/__subtitle/new-arrivals__subtitle.css);
 @import url(./blocks/new-arrivals/__bold-span/new-arrivals__bold-span.css);
 @import url(./blocks/new-arrivals/__button/new-arrivals__button.css);

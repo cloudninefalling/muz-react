@@ -6,7 +6,6 @@
   background-color: transparent;
   border: none;
   justify-self: end;
-  margin-top: 73px;
   padding: 0;
   transition: opacity 0.2s ease-in-out;
 }
@@ -17,6 +16,6 @@
 
 @media screen and (max-width: 720px) {
   .new-arrivals__button {
-    display: none;
+    justify-self: center;
   }
 }

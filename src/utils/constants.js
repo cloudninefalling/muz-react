@@ -1,14 +1,7 @@
 import tipsImg from "../images/news-block__tips-for-beginners.png";
 import corporateAnnouncementImg from "../images/news-block__guitars.png";
 import howToPlayGMajorImg from "../images/news-block__guitar-playing.jpg";
-const CATEGORIES = [
-  "electric",
-  "bass",
-  "acoustic",
-  "classical",
-  "ukulele",
-  "accessories",
-];
+const CATEGORIES = ["electric", "bass", "acoustic", "ukulele", "accessories"];
 
 const newsBlocks = [
   {

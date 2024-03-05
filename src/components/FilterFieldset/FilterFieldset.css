@@ -58,3 +58,9 @@
 .filter__fieldset-button:checked ~ .filter__container {
   pointer-events: all;
 }
+
+@media screen and (max-width: 640px) {
+  .filter__fieldset {
+    width: 130px;
+  }
+}

@@ -3,12 +3,12 @@
   grid-template-areas:
     "image image"
     "name remove"
-    "price .";
+    "price remove";
   grid-template-columns: auto min-content;
   row-gap: 6px;
   grid-template-rows: 400px auto;
   width: 100%;
-  max-width: 350px;
+  min-width: 240px;
 }
 
 .cart-item__image {
@@ -59,4 +59,10 @@
 
 .cart-item__remove-button:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 650px) {
+  .cart-item {
+    grid-template-rows: 50vh auto;
+  }
 }

@@ -11,7 +11,7 @@
 
   font-style: normal;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 110%;
   text-transform: uppercase;
   color: var(--white);
@@ -48,7 +48,7 @@
 @media screen and (max-width: 720px) {
   .categories__list-item {
     height: 40px;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .categories__list-item:hover {

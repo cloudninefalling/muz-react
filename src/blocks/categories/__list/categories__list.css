@@ -14,8 +14,10 @@
     align-items: center;
     justify-content: initial;
     gap: 1vw;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
     height: 600px;
+    width: 100%;
   }
 }
 

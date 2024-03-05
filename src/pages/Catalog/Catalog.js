@@ -1,7 +1,6 @@
 import {
   ACOUSTIC_GUITARS,
   ELECTRIC_GUITARS,
-  CLASSICAL_GUITARS,
   UKULELE,
   BASS_GUITARS,
   ACCESSORIES,
@@ -26,8 +25,6 @@ export default function Catalog() {
         return ELECTRIC_GUITARS;
       case "bass":
         return BASS_GUITARS;
-      case "classical":
-        return CLASSICAL_GUITARS;
       case "ukulele":
         return UKULELE;
       case "accessories":

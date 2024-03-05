@@ -1,0 +1,25 @@
+.guitar-list__container {
+  grid-area: guitar-list;
+  position: relative;
+  overflow-x: auto;
+  border-radius: 10px;
+  margin: 0 0 0 60px;
+}
+
+.guitar-list__container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 24px 2px #aaa;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 720px) {
+  .guitar-list__container {
+    margin: 30px 4vw 0;
+  }
+}
