@@ -1,6 +1,5 @@
-# MUZ
-
-Ссылка на проект: https://cloudninefalling.github.io/muz-react/
+# MUZ: https://cloudninefalling.github.io/muz-react/
+![image](https://github.com/cloudninefalling/muz-react/assets/126521847/8afe521e-9c3c-4151-99d8-1c629223ad9e)
 
 MUZ - цифровой музыкальных инструментов.
 
