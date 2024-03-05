@@ -1,5 +1,7 @@
 # MUZ
 
+Ссылка на проект: https://cloudninefalling.github.io/muz-react/
+
 MUZ - цифровой музыкальных инструментов.
 
 Проект написан с использованием React, React Router.
