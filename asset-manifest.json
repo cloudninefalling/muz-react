@@ -1,25 +1,21 @@
 {
   "files": {
-    "main.css": "/muz-react/static/css/main.b89168e4.css",
-    "main.js": "/muz-react/static/js/main.7cf2cd4f.js",
+    "main.css": "/muz-react/static/css/main.550c6f58.css",
+    "main.js": "/muz-react/static/js/main.0399a7d1.js",
     "static/media/epiphone-ukulele-red.png": "/muz-react/static/media/epiphone-ukulele-red.4c0665c44d5a199c0e6a.png",
     "static/media/ibanez-tcm50-natural.png": "/muz-react/static/media/ibanez-tcm50-natural.aeedba9060fa62a151aa.png",
     "static/media/ibanez-tcm50-sunburst.png": "/muz-react/static/media/ibanez-tcm50-sunburst.d753ee7c577a677390f4.png",
     "static/media/news-block__tips-for-beginners.png": "/muz-react/static/media/news-block__tips-for-beginners.60e9115b6582944b4e96.png",
-    "static/media/veston-c45a-natural.png": "/muz-react/static/media/veston-c45a-natural.ee23fab9409d1e36f212.png",
     "static/media/fender-jazz-bass-natural.png": "/muz-react/static/media/fender-jazz-bass-natural.807dbebd48a39fa9944a.png",
     "static/media/categories__list-item_ukulele.jpg": "/muz-react/static/media/categories__list-item_ukulele.fbea0ed9306c3b167c68.jpg",
     "static/media/categories__list-item_acoustic.jpg": "/muz-react/static/media/categories__list-item_acoustic.c85ca0ae2f5050264cf1.jpg",
     "static/media/categories__list-item_bass.jpg": "/muz-react/static/media/categories__list-item_bass.6e80d5354b6a3b36a330.jpg",
     "static/media/fender-jazz-bass-sunburst.png": "/muz-react/static/media/fender-jazz-bass-sunburst.84e7a63927598cf73d12.png",
-    "static/media/veston-c45a-black.png": "/muz-react/static/media/veston-c45a-black.bec64e34fdaf6ccbe17d.png",
-    "static/media/yamaha-c40.png": "/muz-react/static/media/yamaha-c40.a909106c8956aa091429.png",
     "static/media/fender-jazz-bass.png": "/muz-react/static/media/fender-jazz-bass.fe9f7aa74dddecafcfe6.png",
     "static/media/flight-duc460-black.png": "/muz-react/static/media/flight-duc460-black.6d4275582126c985985f.png",
     "static/media/IBMPlexMono-Bold.ttf": "/muz-react/static/media/IBMPlexMono-Bold.270fc7685a99d1197e53.ttf",
     "static/media/ibanez-tcm50.png": "/muz-react/static/media/ibanez-tcm50.451da5b1be0e5e5b4a1b.png",
     "static/media/fender-cd60-natural.png": "/muz-react/static/media/fender-cd60-natural.ced34326ad107edd4633.png",
-    "static/media/categories__list-item_classical.jpg": "/muz-react/static/media/categories__list-item_classical.3483495be26a7ddf89ee.jpg",
     "static/media/categories__list-item_electric.jpg": "/muz-react/static/media/categories__list-item_electric.6099beb77e1b88bb9a0f.jpg",
     "static/media/stratocaster-player-hss-sunburst.png": "/muz-react/static/media/stratocaster-player-hss-sunburst.78d2e98439e5395b49b5.png",
     "static/media/categories__list-item_accessories.jpg": "/muz-react/static/media/categories__list-item_accessories.d74602b36d869ad48d3c.jpg",
@@ -55,11 +51,11 @@
     "static/media/checkbox_checked.svg": "/muz-react/static/media/checkbox_checked.1d6621d07fdeb690e2a4.svg",
     "static/media/checkbox_unchecked.svg": "/muz-react/static/media/checkbox_unchecked.02c6b0ff64c52c4045aa.svg",
     "static/media/minus.svg": "/muz-react/static/media/minus.446d023f6a8d9b9ff63c.svg",
-    "main.b89168e4.css.map": "/muz-react/static/css/main.b89168e4.css.map",
-    "main.7cf2cd4f.js.map": "/muz-react/static/js/main.7cf2cd4f.js.map"
+    "main.550c6f58.css.map": "/muz-react/static/css/main.550c6f58.css.map",
+    "main.0399a7d1.js.map": "/muz-react/static/js/main.0399a7d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b89168e4.css",
-    "static/js/main.7cf2cd4f.js"
+    "static/css/main.550c6f58.css",
+    "static/js/main.0399a7d1.js"
   ]
 }
