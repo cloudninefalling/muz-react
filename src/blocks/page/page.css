@@ -18,6 +18,10 @@ main {
   --grey: #f0ede5;
 }
 
+* {
+  scroll-margin-top: 80px;
+}
+
 body {
   background-color: var(--white);
   display: flex;

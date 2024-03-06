@@ -11,8 +11,9 @@ export default function Bestsellers() {
       </div>
     );
   });
+
   return (
-    <section className="bestsellers">
+    <section className="bestsellers" id="bestsellers">
       <div className="bestsellers__banner">{bannerArray}</div>
       <GuitarList isCentered={true} guitars={bestsellers} />
     </section>

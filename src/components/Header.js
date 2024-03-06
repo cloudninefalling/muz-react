@@ -46,8 +46,8 @@ export default function Header() {
         <ul className="nav__list-mobile">
           <li id="link-to-categories">
             <HashLink
-              smooth
               to="/#categories"
+              smooth={true}
               className="nav__list-mobile-item"
             >
               Categories
