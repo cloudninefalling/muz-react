@@ -1,0 +1,9 @@
+.categories__list-item-text {
+  transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 1000px) {
+  .categories__list-item-text {
+    transform: unset;
+  }
+}

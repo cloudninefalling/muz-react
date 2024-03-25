@@ -24,7 +24,7 @@ export default function Categories() {
           }}
           onMouseLeave={() => handleHover()}
         >
-          <span>{name}</span>
+          <span className="categories__list-item-text">{name}</span>
         </Link>
       </li>
     );

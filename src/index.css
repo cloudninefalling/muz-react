@@ -55,6 +55,7 @@
 @import url(./blocks/categories/__list-item/_ukulele/categories__list-item_ukulele.css);
 @import url(./blocks/categories/__list-item/_accessories/categories__list-item_accessories.css);
 @import url(./blocks/categories/__list-item-wrapper/categories__list-item-wrapper.css);
+@import url(./blocks//categories/__list-item-text/categories__list-item-text.css);
 
 /* new-arrivals */
 @import url(./blocks/new-arrivals/new-arrivals.css);
