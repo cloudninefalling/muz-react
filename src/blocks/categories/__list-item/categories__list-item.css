@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 1366px) {
   .categories__list-item {
-    width: calc(100px + 50 * (100vw - 1000px) / 366);
+    width: calc(100px + 50 * (100% - 1000px) / 366);
   }
 }
 @media screen and (max-width: 1000px) {
