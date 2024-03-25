@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/muz-react/static/css/main.6462dd6e.css",
-    "main.js": "/muz-react/static/js/main.9f151dfb.js",
+    "main.css": "/muz-react/static/css/main.da3407cd.css",
+    "main.js": "/muz-react/static/js/main.62674dc0.js",
     "static/media/epiphone-ukulele-red.png": "/muz-react/static/media/epiphone-ukulele-red.4c0665c44d5a199c0e6a.png",
     "static/media/ibanez-tcm50-natural.png": "/muz-react/static/media/ibanez-tcm50-natural.aeedba9060fa62a151aa.png",
     "static/media/ibanez-tcm50-sunburst.png": "/muz-react/static/media/ibanez-tcm50-sunburst.d753ee7c577a677390f4.png",
@@ -51,11 +51,11 @@
     "static/media/checkbox_checked.svg": "/muz-react/static/media/checkbox_checked.1d6621d07fdeb690e2a4.svg",
     "static/media/checkbox_unchecked.svg": "/muz-react/static/media/checkbox_unchecked.02c6b0ff64c52c4045aa.svg",
     "static/media/minus.svg": "/muz-react/static/media/minus.446d023f6a8d9b9ff63c.svg",
-    "main.6462dd6e.css.map": "/muz-react/static/css/main.6462dd6e.css.map",
-    "main.9f151dfb.js.map": "/muz-react/static/js/main.9f151dfb.js.map"
+    "main.da3407cd.css.map": "/muz-react/static/css/main.da3407cd.css.map",
+    "main.62674dc0.js.map": "/muz-react/static/js/main.62674dc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6462dd6e.css",
-    "static/js/main.9f151dfb.js"
+    "static/css/main.da3407cd.css",
+    "static/js/main.62674dc0.js"
   ]
 }
